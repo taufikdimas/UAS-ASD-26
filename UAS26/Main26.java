@@ -71,7 +71,7 @@ public class Main26 {
         while (true) {
             if (sc26.hasNextInt()) {
                 bulanBayar = sc26.nextInt();
-                sc26.nextLine(); // Membersihkan newline di buffer
+                sc26.nextLine();
                 break;
             } else {
                 System.out.println("Input bulan bayar harus berupa angka.");
